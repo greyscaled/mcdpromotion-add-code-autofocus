@@ -1,0 +1,14 @@
+{
+    "author": "Grey Barkans",
+    "content_scripts": [
+        {
+            "matches": ["https://mcdpromotion.ca/*"],
+            "js": ["mcdpromotionca-add-code-autofocus.js"]
+        }
+    ],
+    "description": "Autofocuses the input for adding a Monopoly code on https://mcdpromotion.ca",
+    "homepage_url": "https://github.com/greyscaled/mcdpromotionca-add-code-autofocus",
+    "manifest_version": 2,
+    "name": "mcdpromotionca-add-code-autofocus",
+    "version": "0.1.0"
+}
